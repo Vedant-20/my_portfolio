@@ -1,0 +1,9 @@
+.glass-container {
+    /* background-color: rgb(167 139 250); */
+    box-shadow: 0 8px 32px 0 rgb(167 139 250);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(40px);
+    border-radius: 10px;
+    
+  }
+  
