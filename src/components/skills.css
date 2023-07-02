@@ -6,10 +6,15 @@
     min-height: fit-content;
     padding: 2.5rem 2rem 2rem 2rem;
   }
+  .mybg{
+    box-shadow: 10px 10px 20px rgba(204, 204, 204, 0.2);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
 
 
   .skillsbg{
-    background-image: linear-gradient(to top, #6f7dfb, #ca60d1, #f04c97, #f3575d, #da722c);
+    background-image: linear-gradient(315deg, #f2cf07 0%, #55d284 74%);
   }
   
   .skillsHeader {
@@ -51,9 +56,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+    
+    
     justify-content: center;
     padding: 2rem 1rem;
     transition: 300ms ease-in-out;
+    
+  }
+  @keyframes spin {
+    0% {
+      --rotate:0deg;
+    }
+    100% {
+      --rotate:360deg;
+    }
   }
   
   .skill--box:hover {

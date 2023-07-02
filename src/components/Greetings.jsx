@@ -36,10 +36,10 @@ const Greetings = () => {
             <div className="px-0 mx-auto w-full md:w-1/2">
               <motion.div variants={fadeIn("right","spring",0.75 ,1)} className="text-center md:text-left">
                 <h1 className="text-5xl text-white font-bold mb-8">
-                  Welcome.
+                  Welcome!
                 </h1>
-                <p className="text-white text-lg mb-8">Hello! I am Vedant Warjurkar, a Computer Engineer and Full Stack Developer based in <span class="font-medium select-none text-gray-950 animate-text bg-gradient-to-br from-[#ff911b] dark:from-[#ff8400] via-[#fff4f4] dark:via-[#fff] dark:text-black  text-border2 to-[#43ff36] dark:to-[#12ff02] rounded px-2 py-[0.05rem] "> Nagpur, INDIA</span> who develops modern, reactive and user-friendly web applications using the latest technologies currently. I love to learn and explore new technologies and apart from web app I also develop the android applications with the help of Flutter and React Native </p>
-                <SocialLinks />
+                <p className="text-white text-lg mb-8">I am Vedant Warjurkar, a Computer Engineer and Full Stack Developer based in <span class="font-medium select-none text-gray-950 animate-text bg-gradient-to-br from-[#ff911b] dark:from-[#ff8400] via-[#fff4f4] dark:via-[#fff] dark:text-black  text-border2 to-[#43ff36] dark:to-[#12ff02] rounded px-2 py-[0.05rem] "> Nagpur, INDIA.</span> I specialize in crafting cutting-edge, responsive web applications that boast both style and seamless functionality. With an insatiable thirst for knowledge, I'm constantly on the lookout for the latest technologies, ensuring my creations remain at the forefront of the digital landscape. In addition to my mastery of web app development, I'm well-versed in harnessing the power of Flutter and React Native to bring exceptional Android applications to life.  </p>
+                <SocialLinks  />
                 <div className="my-4">
                 <button
                   type="button"

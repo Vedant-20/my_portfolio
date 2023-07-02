@@ -162,7 +162,7 @@ import {
       iconBg: "#383E56",
       date: "June 2015 - May 2016",
       points: [
-        "Passed the 10th Board exam",
+        "Successfully completed the 10th Board examination with outstanding results.",
         "Percentage : 94.20",
         "School Name : Sanjuba High School",
         "City : Nagpur",
@@ -175,7 +175,7 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2017 - May 2018",
       points: [
-        "Passed the 12th Board exam",
+        "Successfully cleared the 12th Board examination with flying colors.",
         "Percentage : 84.62",
         "College Name : St. Paul Junior College",
         "City : Nagpur",
@@ -188,8 +188,8 @@ import {
       iconBg: "#383E56",
       date: "August 2019 - August 2023",
       points: [
-        "Passed the B.E exam",
-        "CGPA : 6.8",
+        "Successfully completed my bachelor's degree in Computer Engineering.",
+        "CGPA : 7.13",
         "College Name : St. Vincent Pallotti College of Engineering and Technology",
         "City : Nagpur",
       ],

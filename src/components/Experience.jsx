@@ -5,10 +5,12 @@ import { styles } from "../styles"
 import {experiences} from '../constants'
 import {SectionWrapper} from '../hoc'
 import { textVariant } from "../utils/motion"
+import GreetingLottie from "../data/displayLottie";
+import {fadeIn} from '../utils/motion'
 
 
 const ExperienceCard=({experience})=>(
-  <VerticalTimelineElement contentStyle={{background:'#1d1836',color:'#fff',border:'2px solid',borderRadius:'10px',backgroundClip:'padding-box',WebkitBackgroundClip:'padding',backgroundImage:'radial-gradient(circle,  #6f7dfb, #ca60d1, #f04c97, #f3575d, #da722c)'}} contentArrowStyle={{borderRight:'7px solid #232631'}} date={experience.date} iconStyle={{background:experience.iconBg}} 
+  <VerticalTimelineElement contentStyle={{background:'#1d1836',color:'#fff',border:'2px solid',borderRadius:'10px',backgroundClip:'padding-box',WebkitBackgroundClip:'padding',backgroundImage:'linear-gradient(315deg, #f2cf07 0%, #55d284 74%)'}} contentArrowStyle={{borderRight:'7px solid #232631'}} date={experience.date} iconStyle={{background:experience.iconBg}} 
   icon={<div className="flex justify-center items-center w-full h-full">
     <img src={experience.icon} alt={experience.company_name} className="w-[90%] h-[90%] object-contain"/>
   </div>}>
@@ -41,6 +43,12 @@ const Experience = () => {
         </h2>
 
       </motion.div>
+      
+      <motion.div variants={fadeIn("left","spring",0.75 ,1)} className="px-0 mx-auto w-full md:w-1/2 ">
+              <GreetingLottie animationPath="src/assets/lottie/education.json" />
+      </motion.div>
+      
+      
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
